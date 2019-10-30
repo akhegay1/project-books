@@ -1,0 +1,39 @@
+.container {
+    min-width: 100vw;
+    min-height: 110px;
+    display: flex;
+    background-image: url("/img/main/Layer 2.png");
+    justify-content: center;
+}
+
+.containerIn1 {
+    min-width: 90vw;
+    min-height: 110px;
+    display: flex;
+    border: solid 1px black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerIn1 > :first-child {
+    margin-left: 142px;
+}
+
+
+  
+  .search_panel {
+    display: flex;
+    border-radius: 2px;
+    background-color: rgb(121, 178, 96);
+    align-items: center;
+    width: 458px;
+    height: 40px;    
+  }
+  
+  .search_inp {
+    background-color: rgb(255, 255, 255);
+    width: 328px;
+    height: 30px;
+    margin-left: 3px;
+  }
+  
