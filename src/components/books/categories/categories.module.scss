@@ -6,23 +6,30 @@
   font-family: "Segoe UI Symbol";
   color: rgb(91, 91, 91);
   line-height: 1.368;
-  justify-content: center;
-  border: solid 1px #cecece;    
+  justify-content: center;  
+  border: solid 1px #cecece;
 }
 
 .vertical_menu {
   background-color: #f8f8f8;
   color: rgb(91, 91, 91);
-  max-width: 200px;
-  min-width: 200px;
+  max-width: 150px;
+  min-width: 150px;
   text-decoration: none;  
-  border: solid 1px #cecece; 
+  border-bottom: solid 1px #cecece;
   font-size: 17px;
   font-family: "SegoeWPN";
   line-height: 1.863;
   text-align: left;
-  padding-left: 36px;
+  margin-left: 25px;
 }
+
+.vertical_menu__nbottom {
+  border-bottom-width: 0px ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 
 
 .vertical_menu:hover {

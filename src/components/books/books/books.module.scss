@@ -1,12 +1,53 @@
 .container {
-  background-color: #f8f8f8;
   display: flex;
   min-width: 805px;   
   font-size: 19px;
   font-family: "Segoe UI Symbol";
   color: rgb(91, 91, 91);
   line-height: 1.368;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   border: solid 1px #cecece;    
+  flex-direction: column;
 }
+
+
+/* Style the tab */
+.tab {
+  border: 1px solid #ccc;
+  font-size: 18.333px;
+  font-family: "HelveticaLTStd";
+  color: rgb(70, 70, 70);
+  line-height: 1.636;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.actual {
+  background-color: yellow;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
 

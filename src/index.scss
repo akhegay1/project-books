@@ -14,6 +14,11 @@
   src: local('SegoeWPN'), url(./fonts/seguisym.ttf) format('ttf');
 }
 
+@font-face {
+  font-family: 'HelveticaLTStd';
+  src: local('HelveticaLTStd'), url(./fonts/HelveticaLTStd-Blk.otf) format('otf');
+}
+
 
 body {
   margin: 0;

@@ -1,5 +1,6 @@
 import React from 'react';
-import c from './categories.module.scss'
+import c from './categories.module.scss';
+import cn from 'classnames';
 
 function Categories() {
   return (
@@ -7,7 +8,7 @@ function Categories() {
       <div >
         <div className={c.vertical_menu__frst}>Categories</div>
         <div className={c.vertical_menu__scnd} href="#" >All</div>
-        <div className={c.vertical_menu}><b>Fiction & Literature</b></div>
+        <div className={cn(c.vertical_menu,c.vertical_menu__nbottom)}><b>Fiction & Literature</b></div>
         <div className={c.vertical_menu}>Children</div>
         <div className={c.vertical_menu}>Science Fiction</div>
         <div className={c.vertical_menu}>Fantasy</div>
@@ -17,7 +18,7 @@ function Categories() {
         <div className={c.vertical_menu}>Poetry</div>
         <div className={c.vertical_menu}>Literature</div>
         <div className={c.vertical_menu}>Crime</div>
-        <div className={c.vertical_menu}><b>Non-Fiction</b></div>
+        <div className={cn(c.vertical_menu,c.vertical_menu__nbottom)}><b>Non-Fiction</b></div>
         <div className={c.vertical_menu}>Comic</div>
         <div className={c.vertical_menu}>Cook</div>
         <div className={c.vertical_menu}>Psychology</div>
@@ -28,7 +29,7 @@ function Categories() {
         <div className={c.vertical_menu}>History</div>
         <div className={c.vertical_menu}>Business</div>
         <div className={c.vertical_menu}>Computer</div>
-        <div className={c.vertical_menu}><b>Other</b></div>
+        <div className={cn(c.vertical_menu,c.vertical_menu__nbottom)}><b>Other</b></div>
         <div className={c.vertical_menu}>Baby</div>
         <div className={c.vertical_menu}>Sex</div>
         <div className={c.vertical_menu}>Travel</div>
