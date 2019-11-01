@@ -9,6 +9,12 @@
   src: local('SegoeWPN'), url(./fonts/SegoeWPN.woff) format('woff');
 }
 
+@font-face {
+  font-family: 'Segoe UI Symbol';
+  src: local('SegoeWPN'), url(./fonts/seguisym.ttf) format('ttf');
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

@@ -1,0 +1,45 @@
+.container {
+  background-color: #f8f8f8;
+  display: flex;
+  min-width: 200px;   
+  font-size: 19px;
+  font-family: "Segoe UI Symbol";
+  color: rgb(91, 91, 91);
+  line-height: 1.368;
+  justify-content: center;
+  border: solid 1px #cecece;    
+}
+
+.vertical_menu {
+  background-color: #f8f8f8;
+  color: rgb(91, 91, 91);
+  max-width: 200px;
+  min-width: 200px;
+  text-decoration: none;  
+  border: solid 1px #cecece; 
+  font-size: 17px;
+  font-family: "SegoeWPN";
+  line-height: 1.863;
+  text-align: left;
+  padding-left: 36px;
+}
+
+
+.vertical_menu:hover {
+  background-color: #cecece; 
+}
+
+.vertical_menu__frst {
+  text-align: left;
+  padding-left: 34px;
+  font-size: 24px;
+  font-family: "SegoeWP";
+}
+
+.vertical_menu__scnd {
+  background-color: #4CAF50;
+  text-align: left;
+  padding-left: 34px;
+}
+
+

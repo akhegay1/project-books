@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 import Toptopmenu from './components/toptopmenu/toptopmenu';
 import Cart from './components/cart/cart';
-
+import Topmenu from './components/topmenu/topmenu';
+import Banner from './components/banner/banner';
+import Wrap from './components/books/wrap';
 
 function App() {
   return (
@@ -10,11 +12,10 @@ function App() {
       <header >
         <Toptopmenu/>
       </header>
-      <section><Cart/></section>
-
-      
-      <section>2</section>
-      <section>3</section>
+        <Cart/>
+        <Topmenu/>
+        <Banner/>
+        <Wrap/>
       <footer>F</footer>
     </div>
   );

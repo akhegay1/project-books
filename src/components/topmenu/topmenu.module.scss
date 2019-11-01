@@ -1,0 +1,32 @@
+@import "src/master";
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #f8f8f8;
+    display: flex;
+    width: 100vw;   
+    font-size: 19px;
+    font-family: "Segoe UI Symbol";
+    color: rgb(91, 91, 91);
+    line-height: 1.368;
+    justify-content: center;
+    border: solid 1px #cecece;    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .block {
+    color: rgb(91, 91, 91);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .active,  .block:hover  {
+    background-color: $greenColor;
+    color: black;
+  }
+
+
+  

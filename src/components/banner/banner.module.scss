@@ -1,0 +1,17 @@
+@import "src/master";
+
+
+/* Add a black background color to the top navigation */
+.container {
+    background-color: #f8f8f8;
+    display: flex;
+    width: 100vw;   
+    justify-content: center;
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+
+.container > :first-child {
+    margin-right: 17px;
+}
+
