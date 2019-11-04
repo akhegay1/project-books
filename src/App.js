@@ -5,6 +5,7 @@ import Cart from './components/cart/cart';
 import Topmenu from './components/topmenu/topmenu';
 import Banner from './components/banner/banner';
 import Wrap from './components/books/wrap';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
         <Cart/>
         <Topmenu/>
         <Banner/>
-        <Wrap/>
-      <footer>F</footer>
+        <Wrap/>        
+      <footer><Footer/></footer>
     </div>
   );
 }

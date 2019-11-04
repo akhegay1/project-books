@@ -28,18 +28,23 @@
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  transition: 0.3s;
+  transition: 0.3s;   
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #ccc;
 }
 
 /* Create an active/current tablink class */
 .actual {
-  background-color: yellow;
+  background-color: #fdf9f9;
 }
+
+.not_actual {
+  background-color: #ebebeb;
+}
+
 
 /* Style the tab content */
 .tabcontent {
@@ -51,3 +56,37 @@
 
 
 
+.books_row {
+  display: flex;
+  min-width: 797px;   
+  font-size: 15px;
+  font-family: "SegoeWPN";
+  color: rgb(100, 100, 100);
+  line-height: 1.368;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: solid 1px #cecece; 
+}
+
+.books_cell_name {
+  font-size: 15px;
+  font-family: "SegoeWPN";
+  color: rgb(100, 100, 100);
+  width: 140px;
+}
+
+.books_cell_img {
+  font-size: 15px;
+  font-family: "SegoeWPN";
+  color: rgb(100, 100, 100);
+  width: 140px;
+  margin: 12px 12px 12px 12px;
+}
+
+
+.books_cell_price {
+  font-size: 21.667px;
+  font-family: "HelveticaLTStd";
+  font-weight: bold;
+  color: rgb(240, 83, 86);
+}

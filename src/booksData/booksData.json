@@ -1,0 +1,73 @@
+{
+    "books1": [
+     { "id": 1,
+        "name": "The Hare With Amber Eyes", 
+        "price": "50$", 
+        "filename": "book1" },
+    { "id": 2,
+        "name": "The war of  Art", 
+        "price": "60$", 
+        "filename": "book2" },
+    { "id": 3,
+        "name": "The Hare With Amber Eyes", 
+        "price": "25$", 
+        "filename": "book3" },
+    { "id": 4,
+        "name": "The Immortals of Meluha", 
+        "price": "80$", 
+        "filename": "book4" },
+    { "id": 5,
+        "name": "Life Is What You  Make It", 
+        "price": "200$", 
+        "filename": "book5" }
+    ],
+
+    "books2": [
+    { "id": 6,
+        "name": "The Hare With Amber Eyes", 
+        "price": "200$", 
+        "filename": "book6" },
+    { "id": 7,
+        "name": "The war of  Art", 
+        "price": "150$", 
+        "filename": "book7" },    
+    { "id": 8,
+        "name": "The Hare With Amber Eyes", 
+            "price": "100$", 
+            "filename": "book8" },
+    { "id": 9,
+        "name": "The Immortals of Meluha", 
+        "price": "152$", 
+        "filename": "book9" },
+    { "id": 10,
+        "name": "Life Is What You  Make It", 
+        "price": "200$", 
+        "filename": "book10" }
+    ],
+    
+    "books3": [
+    { "id": 11,
+        "name": "The Hare With Amber Eyes", 
+        "price": "220$", 
+        "filename": "book11" },
+    { "id": 12,
+        "name": "The war of  Art", 
+        "price": "10$", 
+        "filename": "book12" },
+    { "id": 13,
+        "name": "The Hare With Amber Eyes", 
+        "price": "22$", 
+        "filename": "book13" }, 
+    { "id": 14,
+        "name": "The Immortals of Meluha", 
+        "price": "300$", 
+        "filename": "book14" }, 
+    { "id": 15,
+        "name": "Life Is What You  Make It", 
+        "price": "205$", 
+        "filename": "book15" } 
+    ]
+    
+
+    
+  }

@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    width: 100vw;   
+    background-color: #474043;
+    line-height: 1.368;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #cecece;  
+  }
+
+  .row  {    
+    font-size: 13.667px;
+    font-family: "SegoeWP";
+    color: rgba(221, 221, 221, 0.702);
+    text-align: left;
+  }
+
+  .col {
+    width: 230px;
+    flex-direction: column;
+    color: #ccc
+  }
+
+  .header {
+    font-size: 19px;
+    font-family: "SegoeWP";
+    height: 55px;
+    color: rgb(221, 221, 221);
+    top: 0;
+  }
