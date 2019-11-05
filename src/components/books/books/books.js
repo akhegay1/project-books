@@ -8,9 +8,8 @@ function Books() {
   const handleClick = (e, x) => {
       e.preventDefault()
       
-      console.log(booksData)
       const tablinks = document.getElementById("btab").querySelectorAll("button");
-      console.log(tablinks)
+      
       for (let i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(b.actual, b.not_actual);
       }
@@ -19,6 +18,29 @@ function Books() {
       const sty = b.actual
       e.target.className = sty;
   };
+
+  let newAllBooksArr = []
+  let booksAr = []
+  let j = 0
+  let ind = ''
+  
+  //divide array of books into 3 arrays as 3 rows
+  booksAr = []
+  for (let x in booksData.books) {
+
+    booksAr.push(booksData.books[x])
+    
+    if ((((parseInt(x) + 1) % 5) === 0) ) {
+      ind = 'books' + j
+      j++
+      newAllBooksArr[ind] =  booksAr  
+      booksAr = []  
+    }
+    
+  }
+
+  //console.log(newAllBooksArr)
+
   
   return (
     <div className={b.container}>
@@ -31,7 +53,7 @@ function Books() {
 
 
       <div key="1" className={b.books_row}>
-      {booksData.books1.map(n => (
+      {newAllBooksArr["books0"].map(n => (
         <div key={n.id}>
           <div className={b.books_cell_img}> <img src={`/img/books/${n.filename}.jpg`} alt={n.filename} className={b.books_cell} /></div>
           <div className={cn(b.books_cell,b.books_cell_price)}>{n.price}</div>
@@ -42,7 +64,7 @@ function Books() {
       </div>
       
       <div key="2" className={b.books_row}>
-      {booksData.books2.map(n => (
+      {newAllBooksArr["books1"].map(n => (
         <div key={n.id}>
           <div className={b.books_cell_img}> <img src={`/img/books/${n.filename}.jpg`} alt={n.filename} className={b.books_cell} /></div>
           <div className={cn(b.books_cell,b.books_cell_price)}>{n.price}</div>
@@ -53,7 +75,7 @@ function Books() {
       </div>
 
       <div key="3" className={b.books_row}>
-      {booksData.books3.map(n => (
+      {newAllBooksArr["books2"].map(n => (
         <div key={n.id}>
           <div className={b.books_cell_img}> <img src={`/img/books/${n.filename}.jpg`} alt={n.filename} className={b.books_cell} /></div>
           <div className={cn(b.books_cell,b.books_cell_price)}>{n.price}</div>
@@ -63,7 +85,7 @@ function Books() {
       }
       </div>
 
-      
+
     </div>
   );
 

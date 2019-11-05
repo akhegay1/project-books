@@ -11,11 +11,13 @@
   .row  {    
     font-size: 13.667px;
     font-family: "SegoeWP";
-    color: rgba(221, 221, 221, 0.702);
+    color: #919190;
     text-align: left;
   }
+  
 
   .col {
+    display: flex;
     width: 230px;
     flex-direction: column;
     color: #ccc
@@ -26,5 +28,18 @@
     font-family: "SegoeWP";
     height: 55px;
     color: rgb(221, 221, 221);
-    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
+  
+
+  .line  {
+    border-top: 1px solid #52514f;; /* Параметры линии */
+    height: 0.2px; /* Высота блока */
+    width: 170px;
+   }
+
+   .invis {
+     color: #474043
+   }
