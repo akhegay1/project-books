@@ -6,6 +6,7 @@ import Topmenu from './components/topmenu/topmenu';
 import Banner from './components/banner/banner';
 import Wrap from './components/books/wrap';
 import Footer from './components/footer/footer';
+import FloatingSel from './components/floatingSel/floatingSel';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Banner/>
         <Wrap/>        
       <footer><Footer/></footer>
+      <FloatingSel />
     </div>
   );
 }
