@@ -7,6 +7,7 @@ import Banner from './components/banner/banner';
 import Wrap from './components/books/wrap';
 import Footer from './components/footer/footer';
 import FloatingSel from './components/floatingSel/floatingSel';
+import AsyncCurrencies from './components/async_currencies/async_currencies';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Wrap/>        
       <footer><Footer/></footer>
       <FloatingSel />
+      <AsyncCurrencies />
     </div>
   );
 }
